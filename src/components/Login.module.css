@@ -1,0 +1,52 @@
+.login {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+
+.div p {
+  margin: 0.2rem 0 0 0;
+}
+
+.div input,
+.div label,
+.form button {
+  font-size: 1.2rem;
+}
+
+.div input {
+  width: 18rem;
+  height: 1.8rem;
+  border-radius: 5px;
+}
+
+.div label {
+  margin-bottom: 0.3rem;
+}
+
+.form button {
+  padding: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(235, 194, 159);
+  margin-top: 0.5rem;
+}
+
+button:hover {
+  background-color: rgb(241, 211, 173);
+}
